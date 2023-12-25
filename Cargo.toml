@@ -1,0 +1,8 @@
+[package]
+name = "chess-db"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.30.0", features = ["bundled"] }
+thiserror = "1.0.50"
